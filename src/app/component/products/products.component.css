@@ -1,0 +1,57 @@
+.card-top{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: .25rem;
+
+
+}
+
+.item img{
+  width: 64px;
+  /*height: 64px;*/
+  border-radius: 100rem;
+  object-fit: cover;
+  border: 2px solid rgb(211, 48, 197);
+}
+
+
+.item{
+  margin: 0px 55px;
+  text-align: center;
+  justify-content: center;
+}
+
+.item a:hover{
+  color:blue;
+}
+
+/*images*/
+
+/*diff bet 2 img*/
+.card{
+  padding: 20px;
+  margin: 40px;
+  justify-content: center;
+}
+
+/*image inside the card*/
+.card img{
+  width:250px;
+  height:200px;
+  margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
+  object-fit:contain;
+
+
+}
+
+.card img:hover{
+  transition: 0.3s ease-in-out;
+  transform:scale(1.1);
+}
